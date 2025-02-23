@@ -26,10 +26,10 @@ Desenvolver um sistema bancário em Java com as seguintes funcionalidades:
 
 ## 🧑‍💻 Participantes
 
-*   Danilo Santos - @DaniloSantos284
-*   Johnnatan Krause - @johnnatankrause
-*   Lorenna Dias - @Lohluizesd
-*   Samuel Barbosa - @samuelbarbosagh
+*   [Danilo Santos](@DaniloSantos284)
+*   [Johnnatan Krause](@johnnatankrause)
+*   [Lorenna Dias](@Lohluizesd)
+*   [Samuel Barbosa](@samuelbarbosagh)
 *   Thiago Bona -
 *   Luana Melo - 
 
