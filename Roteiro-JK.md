@@ -1,29 +1,29 @@
 # Roteiro de Desenvolvimento: Implementação das Funcionalidades Bancárias e Histórico
 
-Este roteiro detalhado te guiará no desenvolvimento das funcionalidades bancárias e histórico, partindo do zero.  Marque cada item como concluído à medida que você avança.
+Este roteiro detalhado servirá de guia no desenvolvimento das funcionalidades bancárias e histórico, partindo do zero.  Marcarei cada item como concluído à medida que for avançando.
 
-## ☑️ Preparação Inicial (Uma vez)
+## ☑️ Preparação Inicial (Uma unica vez)
 
-*   [ ] 1. **Fazer o Fork do repositório principal (Danilo):**
+*   [☑️] 1. **Fazer o Fork do repositório principal (Danilo):**
     *   [ ] Acessar o repositório do Danilo no GitHub.
     *   [ ] Clicar no botão "Fork" (canto superior direito).
-    *   [ ] Selecionar a sua conta para criar o fork.
-*   [ ] 2. **Fazer o Clone do seu Fork para sua máquina local:**
-    *   [ ] No seu repositório forkado, clicar no botão verde "Code" e copiar o URL HTTPS ou SSH.
+    *   [ ] Selecionar a minha conta para criar o fork.
+*   [☑️] 2. **Fazer o Clone do Fork para máquina local:**
+    *   [ ] No repositório forkado, clicar no botão verde "Code" e copiar o URL HTTPS ou SSH.
     *   [ ] Abrir o terminal/prompt de comando.
-    *   [ ] Navegar até o diretório onde você quer salvar o projeto.
+    *   [ ] Navegar até o diretório onde será salvo o projeto.
     *   [ ] Executar o comando: `git clone <URL_DO_SEU_REPOSITORIO>`
-*   [ ] 3. **Configurar o repositório original (Danilo) como "upstream" (para sincronizar atualizações):**
+*   [☑️] 3. **Configurar o repositório original (Danilo) como "upstream" (para sincronizar atualizações):**
     *   [ ] No terminal, dentro do diretório do projeto, executar: `git remote add upstream <URL_DO_REPOSITORIO_DO_DANILO>`
     *   [ ] (Opcional: Verificar se o upstream foi configurado corretamente: `git remote -v`)
 
 ## ☑️ Para cada nova funcionalidade/tarefa (como implementar `depositar()`, `sacar()` etc.):
 
-*   [ ] 4. **Criar uma branch para a nova funcionalidade:**
+*   [ ] 4. **Criar uma branch para a nova funcionalidade:** (Varias vezes)
     *   [ ] No terminal, executar: `git checkout -b feature/nome-da-funcionalidade` (ex: `feature/implementar-depositar`)
-    *   [ ] (Dica: Use nomes descritivos para as suas branches.)
+    *   [ ] (Dica: Usar nomes descritivos para as branches.)
 
-## ☑️ Implementação das Funcionalidades
+## ☑️ Implementação das Funcionalidades (Varias vezes)
 
 *   [ ] 5. **Implementar o método `depositar()`:**
     *   [ ] Ler e entender a descrição do método.
@@ -55,7 +55,7 @@ Este roteiro detalhado te guiará no desenvolvimento das funcionalidades bancár
     *   [ ] Criar o método `exibirHistorico()` para exibir o histórico ao usuário.
     *   [ ] Integrar o registro do histórico nos métodos `depositar()`, `sacar()` e `transferir()`.
 
-## ☑️ Testes e Tratamento de Exceções
+## ☑️ Testes e Tratamento de Exceções (Varias vezes)
 
 *   [ ] 9. **Testar as funcionalidades implementadas:**
     *   [ ] Criar casos de teste para cada método (depósito com valor válido, depósito com valor inválido, saque com saldo suficiente, saque com saldo insuficiente, etc.).
@@ -65,7 +65,7 @@ Este roteiro detalhado te guiará no desenvolvimento das funcionalidades bancár
     *   [ ] Utilizar blocos `try-catch` para capturar as exceções.
     *   [ ] Exibir mensagens de erro amigáveis ao usuário.
 
-## ☑️ Versionamento e Integração
+## ☑️ Versionamento e Integração (Varias vezes)
 
 *   [ ] 11. **Adicionar as alterações ao controle de versão (Git):**
     *   [ ] Executar: `git add .` (para adicionar todos os arquivos modificados) ou `git add <nome-do-arquivo>` (para adicionar um arquivo específico).
@@ -82,7 +82,7 @@ Este roteiro detalhado te guiará no desenvolvimento das funcionalidades bancár
     *   [ ] Responder aos comentários e fazer as alterações solicitadas (se houver).
     *   [ ] Após a aprovação, o Danilo fará o merge das suas alterações para o repositório principal.
 
-## ☑️ Sincronização (Manter seu Fork atualizado - Faça isso regularmente)
+## ☑️ Sincronização (Manter seu Fork atualizado - Faça isso regularmente) (Varias vezes)
 
 *   [ ] 16. **Sincronizar o seu Fork com o repositório original (Danilo):**
     *   [ ] No terminal, executar:
