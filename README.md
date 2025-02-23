@@ -1,4 +1,4 @@
-# 🏦 Projeto Sistema Bancário Open Source em Java 💻
+# 🏦 Projeto Open Source de Sistema Bancário em Java 💻
 
 ## Descrição
 
