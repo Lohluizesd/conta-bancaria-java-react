@@ -46,7 +46,7 @@
     border: none;
     height: 50px;
     width: 180px;
-    font-family: var(--font-family-thin);
+    font-family: var(--font-family-regular);
     color: white;
     font-size: 16px;
     margin: 30px auto;
@@ -71,7 +71,7 @@
 }
 
 .sair {
-    font-family: var(--font-family-regular);
+    font-family: var(--font-family-bold);
     font-size: 16px;
     text-decoration: none;
     color: var(--cor-laranja);
